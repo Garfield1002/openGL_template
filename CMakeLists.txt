@@ -5,7 +5,7 @@ project ("template")
 
 # Source files
 set(SRC_DIR "${CMAKE_SOURCE_DIR}/src")
-set(LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/libraries")
+set(LIB_DIR "${CMAKE_SOURCE_DIR}/libraries")
 set(SOURCES 
 	"${SRC_DIR}/main.cpp"
 	"${SRC_DIR}/main.h"
